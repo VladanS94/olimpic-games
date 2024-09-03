@@ -1,0 +1,26 @@
+.group-stage {
+    display: flex;
+    text-align: justify;
+}
+.group-stage ul li {
+    list-style: none;
+}
+
+.group-title {
+    text-align: center;
+}
+
+.table-points-title {
+    text-align: center;
+}
+
+.table-points-list:nth-child(-n+3) {
+    background-color: green;
+}
+.new-hat-group {
+    width: 250px;
+}
+
+.new-hat-group li:last-child {
+  background-color: red;
+}
